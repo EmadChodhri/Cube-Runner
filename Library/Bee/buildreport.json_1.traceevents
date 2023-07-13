@@ -1,0 +1,496 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1689279678471217, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689279678473422, "dur": 26195, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689279678499947, "dur": 90865, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689279678590841, "dur": 19922, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689279683683055, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689279683684911, "dur": 12759, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689279683697674, "dur": 48249, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689279683745970, "dur": 288355, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689279684034326, "dur": 424836, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689279684459165, "dur": 13601, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689279684473152, "dur": 34, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1689279683888603, "dur": 139632, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1689279683889899, "dur": 55675, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1689279684007827, "dur": 5718, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1689279684013548, "dur": 14675, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1689279684014526, "dur": 12655, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1689279684034194, "dur": 1688, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1689279684033022, "dur": 2895, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689279684473244, "dur": 177, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1689279684099554, "dur":1186, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689279684100748, "dur":43, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1689279684100804, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1689279684100824, "dur":178, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1689279684101024, "dur":829, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689279684101853, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689279684447282, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689279684447288, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689279684447301, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689279684447303, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689279684447311, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689279684447313, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689279684447321, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689279684447323, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689279684447331, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689279684447425, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689279684447451, "dur":1518, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1689279684101470, "dur":390, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684101862, "dur":6646, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684108528, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1689279684108532, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684108564, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1689279684108571, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684109678, "dur":2549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1689279684112232, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1689279684112375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684119238, "dur":1949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1689279684121259, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1689279684121396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684121814, "dur":1375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1689279684123265, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1689279684123395, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684123401, "dur":2068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1689279684125626, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1689279684125750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684125756, "dur":1833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1689279684127662, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684127899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684128269, "dur":1739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684130084, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run.exe" }}
+,{ "pid":12345, "tid":1, "ts":1689279684130113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684130119, "dur":2167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run.exe" }}
+,{ "pid":12345, "tid":1, "ts":1689279684132312, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1689279684132460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684132766, "dur":52756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1689279684185610, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684185638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684185646, "dur":2633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684188298, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684188320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684188326, "dur":1946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684190290, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684190307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684190314, "dur":2507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684192841, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684192860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684192867, "dur":2824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684195712, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684195730, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684195735, "dur":1350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684197103, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684197123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684197129, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684198439, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684198458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684198464, "dur":1110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684199592, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684199623, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684199629, "dur":1044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684200690, "dur":73727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684274432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684274440, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684275803, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684275823, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684275830, "dur":1184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684277034, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684277052, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684277058, "dur":2850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684279932, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684279954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684279982, "dur":1305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684281307, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684281326, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684281333, "dur":1280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684282631, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684282651, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684282658, "dur":1509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684284195, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684284220, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684284226, "dur":1560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684285807, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684285828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684285836, "dur":1432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684287295, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684287315, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684287322, "dur":1286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684288629, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684288649, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684288656, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684289875, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684289895, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684289901, "dur":1192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684291114, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684291133, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684291140, "dur":1219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684292378, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684292397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684292404, "dur":1382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684293806, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684293825, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684293831, "dur":2919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684296773, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684296791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684296799, "dur":2724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684299547, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684299573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684299582, "dur":1150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684300751, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684300773, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684300779, "dur":3948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684304750, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684304772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684304780, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684306083, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684306103, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684306109, "dur":1355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684307486, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684307506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684307514, "dur":11185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684318721, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684318740, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684318747, "dur":1095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684319860, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684319877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684319905, "dur":1647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684321577, "dur":1353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684322933, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684322941, "dur":12922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689279684335901, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1689279684335920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689279684335927, "dur":4459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1689279684340403, "dur":106745, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689279684101554, "dur":341, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689279684101895, "dur":6638, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689279684108534, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1689279684108707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689279684119218, "dur":1185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1689279684120486, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1689279684120680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689279684120687, "dur":2641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1689279684123423, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1689279684123551, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689279684123557, "dur":1873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1689279684125521, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1689279684125649, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689279684125655, "dur":1310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1689279684127038, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1689279684127162, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689279684127168, "dur":1558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1689279684128829, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1689279684128959, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689279684128963, "dur":3903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1689279684132958, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689279684132992, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689279684133216, "dur":1233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689279684134469, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689279684134489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689279684134567, "dur":2046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689279684136634, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689279684136663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689279684136669, "dur":1364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689279684138054, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689279684138074, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689279684138080, "dur":2985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689279684141092, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689279684141125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689279684141136, "dur":4471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689279684145641, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689279684145669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689279684145681, "dur":1586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689279684147323, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689279684147370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689279684147378, "dur":1295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689279684148692, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689279684148710, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689279684148716, "dur":1349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689279684150083, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689279684150107, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689279684150113, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689279684151461, "dur":122044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689279684273512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689279684273521, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689279684274918, "dur":170625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689279684445549, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689279684445559, "dur":1523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689279684447109, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1689279684447111, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684101534, "dur":345, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684101879, "dur":6839, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684108719, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1689279684108861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684119199, "dur":2508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1689279684121779, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1689279684121911, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684122036, "dur":1997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1689279684124103, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1689279684124258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684124678, "dur":1278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1689279684126028, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1689279684126164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684126171, "dur":1952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1689279684128208, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684128331, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684128335, "dur":19060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684147492, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684147516, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684147521, "dur":1344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684148883, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684148900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684148905, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684150334, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684150351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684150357, "dur":1836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684152212, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684152233, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684152239, "dur":1204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684153462, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684153481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684153487, "dur":1379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684154889, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684154909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684154917, "dur":1209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684156145, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684156166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684156173, "dur":1277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684157469, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684157488, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684157493, "dur":1115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684158626, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684158645, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684158651, "dur":1044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684159713, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684159731, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684159736, "dur":1218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684160973, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684160994, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684161000, "dur":1484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684162505, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684162524, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684162530, "dur":1334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684163882, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684163901, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684163907, "dur":1241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684165170, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684165188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684165194, "dur":1074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684166287, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684166305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684166311, "dur":2478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684168807, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684168826, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684168832, "dur":1142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684169991, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684170009, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684170014, "dur":18646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684188679, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684188697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684188703, "dur":1683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684190403, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684190421, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684190426, "dur":55409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684245858, "dur":71644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684317506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684317514, "dur":5368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689279684322908, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1689279684322928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684323020, "dur":1278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1689279684324317, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1689279684324336, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684324341, "dur":1164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1689279684325525, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1689279684325543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684325549, "dur":1065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1689279684326632, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1689279684326650, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684326655, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1689279684327641, "dur":647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1689279684328291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684328297, "dur":1182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1689279684329496, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/level3.resS" }}
+,{ "pid":12345, "tid":3, "ts":1689279684329520, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684329524, "dur":1200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/level3.resS" }}
+,{ "pid":12345, "tid":3, "ts":1689279684330742, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1689279684330758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684330763, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1689279684331861, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1689279684331877, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684331881, "dur":1656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1689279684333555, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1689279684333573, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684333578, "dur":4695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1689279684338296, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1689279684338317, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689279684338346, "dur":1287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1689279684339652, "dur":107570, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684101600, "dur":308, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684101908, "dur":6624, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684108533, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1689279684108710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684118509, "dur":1523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1689279684120108, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1689279684120257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684120453, "dur":2527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1689279684123054, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1689279684123185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684123192, "dur":1464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1689279684124792, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1689279684124924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684125003, "dur":1552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1689279684126626, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1689279684126751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684126757, "dur":982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1689279684127809, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684127937, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684128397, "dur":4595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684133064, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684133089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684133247, "dur":1135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684134405, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684134426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684134508, "dur":1752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684136289, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684136310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684136318, "dur":1392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684137735, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684137758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684137770, "dur":2023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684139824, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684139851, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684139859, "dur":3537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684143426, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684143468, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684143478, "dur":3961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684147460, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684147479, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684147484, "dur":1298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684148799, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684148817, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684148822, "dur":1307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684150146, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684150184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684150190, "dur":1278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684151489, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684151508, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684151515, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684152656, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684152674, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684152679, "dur":1171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684153868, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684153886, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684153891, "dur":1372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684155282, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684155308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684155314, "dur":1203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684156534, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684156552, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684156557, "dur":1098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684157671, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684157709, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684157714, "dur":1022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684158754, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684158771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684158777, "dur":1215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684160010, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684160028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684160034, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684161316, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684161340, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684161366, "dur":1575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684162959, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684162977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684162982, "dur":1187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684164186, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684164204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684164210, "dur":1275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684165503, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684165532, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684165561, "dur":2592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684168176, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684168196, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684168202, "dur":1428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684169647, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684169664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684169670, "dur":17718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684187408, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684187427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684187435, "dur":2040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684189493, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684189511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684189517, "dur":2092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684191629, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684191669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684191676, "dur":1255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684192949, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684192966, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684192971, "dur":1191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684194181, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684194199, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684194205, "dur":1129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684195355, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684195375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684195383, "dur":1273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684196674, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684196697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684196704, "dur":1157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684197878, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684197896, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684197901, "dur":1103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684199021, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684199041, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684199046, "dur":1229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684200293, "dur":43966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684244265, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684244296, "dur":1657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684245972, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684245991, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684245999, "dur":1338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684247361, "dur":69336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684316703, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684316713, "dur":2725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684319458, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684319476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684319482, "dur":3904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689279684323404, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":4, "ts":1689279684323423, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684323428, "dur":1231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":4, "ts":1689279684324677, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1689279684324695, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684324699, "dur":1200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1689279684325917, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1689279684325935, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684325961, "dur":1035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1689279684327013, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1689279684327144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684327150, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1689279684328257, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/level4.resS" }}
+,{ "pid":12345, "tid":4, "ts":1689279684328275, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684328280, "dur":1143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/level4.resS" }}
+,{ "pid":12345, "tid":4, "ts":1689279684329442, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1689279684329460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684329465, "dur":1033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1689279684330515, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1689279684330531, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684330536, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1689279684331586, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1689279684331601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684331606, "dur":1072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1689279684332696, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1689279684332712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684332717, "dur":1036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1689279684333770, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1689279684333785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684333790, "dur":4712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1689279684338522, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1689279684338672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689279684338677, "dur":1315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Chodhri/OneDrive/Desktop/Cube Runner/Run_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1689279684340011, "dur":107210, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689279684450304, "dur":2106, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1689279684473497, "dur": 978, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1689279684473140, "dur": 1368, "ph": "X", "name": "Write chrome-trace events", "args": {} },
